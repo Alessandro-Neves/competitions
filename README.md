@@ -1,1 +1,1 @@
-# google-competitions
+# [google-competitions](https://codingcompetitions.withgoogle.com/)
