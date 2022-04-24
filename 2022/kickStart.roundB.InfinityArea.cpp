@@ -27,11 +27,9 @@ int main(){
         area = (double)M_PI*pow(raio, 2);
 
         while(raio > 0){
-            if(right){
-                raio = raio / b;
-            }else{
-                raio = raio * a;
-            }
+            if(right)   raio = raio / b;
+            else        raio = raio * a;
+
             area += (float)M_PI*pow(raio, 2);
 
             right = (bool)(right^1);            // alterna valor de right
